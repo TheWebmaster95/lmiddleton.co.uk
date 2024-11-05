@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liam Middleton Front End Web Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/75e24fe1c8.js" crossorigin="anonymous"></script>
+  
+  <!-- Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+
+
+
+
+
+    <!-- Meta Information-->
+    <meta name="description" content="Liam Middleton Portfolio">
+    <meta name="keywords"
+        content="HTML, CSS, JavaScript, Front End Web Developer, User Experience, Website accessibility">
+    <meta name="author" content="Liam Middleton">
+
+    <!--Google Analytics-->
+
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-JS94LV0KX5"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-JS94LV0KX5');
+    </script>
+
+    <!-- Favicon Images-->
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+
+
+
+
+
+</head>
+
+<body>
+    <div id="header">
+
+        <div class="container">
+            <nav>
+
+                <ul id="sidemenu">
+
+                    <li aria-label="About section"><a href="#about">About</a></li>
+
+                    <li aria-label="Portfolio section"><a href="#portfolio">Portfolio</a></li>
+                    <li aria-label="Contact section"><a href="#contact">Contact</a></li>
+                    <i aria-label="Close navigation menu" class="fa-solid fa-xmark" onclick="closemenu()"></i>
+
+                </ul>
+                <i aria-label="Open navigation menu" class="fa-solid fa-bars" onclick="openmenu()"></i>
+
+
+            </nav>
+
+            <div class="header-text">
+
+                <h1>Hi I'm Liam <br> Middleton</h1>
+                <p>Front End Web Developer <br>
+                    focused on user experience and <br> website accessibility</p>
+            </div>
+
+
+
+
+        </div>
+
+
+
+
+    </div>
+
+
+    <!--About Section-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png" alt="Photo of Liam">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p class="about-txt">I am an enthusiastic, ambitious and a hard-working person with over five years
+                        of experience coding websites using <strong>HTML</strong>,<strong> CSS</strong> &
+                        <strong>Javascript</strong>.
+                    </p>
+
+                    <br>
+
+
+                    <p class="about-txt">I am very passionate about <strong>user experience</strong>
+                        and <strong>website accessibility</strong> and recently I have been using
+                        <strong>Shopify</strong>. I also have
+                        the
+                        ability to manage web projects and deliver website training.
+                    </p>
+                    <br>
+
+                    <p class="about-txt">Aside from work I enjoy music and going to gigs and enjoy going for walks and
+                        watching sport.</p>
+
+
+
+
+
+
+
+                    <div class="tab-titles">
+                        <p aria-label="Open skills tab" class="tab-links active-link" onclick="opentab('skills')">Skills
+                        </p>
+                        <p aria-label="Open experience tab" class="tab-links" onclick="opentab('experience')">Experience
+                        </p>
+                        <p aria-label="Open education tab" class="tab-links" onclick="opentab('education')">Education
+                        </p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>Building websites using HTML, CSS, Javascript and use of
+                                frameworks such as Bootstrap, Wordpress & Shopify.</li>
+                            </li>
+                            <li><span>User Experience</span><br>Creating personas, mockups, building interfaces using
+                                Adobe XD & Figma and understanding of website accessibility and responsivness.</li>
+                            </li>
+                            <li><span>Reporting</span><br>Website Auditing, Google Analytics and use of heatmapping
+                                tools. </li>
+                            </li>
+
+
+                        </ul>
+                    </div>
+
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2019-Current</span><br>UCLan Students' Union - Web & Digital Coordinator.</li>
+                            </li>
+                            <li><span>July 2019 - December 2019</span><br>Technical Support Officer - Lancashire County
+                                Council.</li>
+                            </li>
+                            <li><span>Febuary 2019 - June 2019</span><br>Assistant Technical Support Officer -
+                                Lancashire County Council.</li>
+                            </li>
+
+
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2015 - 2018</span><br>University of Central Lancashire - First Class Honours in
+                                Web Development.</li>
+                            </li>
+                            <li><span>2011 - 2015</span><br>Blackburn College - D*D*D BTech in Game and Interactive
+                                Media Design.</li>
+                            </li>
+
+                            </li>
+
+
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+    <!--Portfolio-->
+
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png" alt="Image of UCLan SU website on a mobile device">
+                    <div class="layer">
+                        <h3 class="L-txt">UCLan Students' Union</h3>
+                        <p class="L-txt">Managing the website & creating webpages using HTML, CSS & Javascript. Also
+                            using the CMS to
+                            assist staff with issues and manage student data issues so students can login and engage
+                            with the site.</p>
+
+                        <a aria-label="link to UCLan Students' Union website" href="https://www.uclansu.co.uk/"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="images/work-2.png" alt="Image of UCLan SU shop on a mobile device">
+                    <div class="layer">
+                        <h3 class="L-txt">UCLan Students' Union Online Shop</h3>
+                        <p class="L-txt">Developed an online shop via Shopify and built upon one of the templates
+                            provided.</p>
+
+                        <a aria-label="Link to UCLan Students' Union online shop" href="https://shop.uclansu.co.uk/"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="images/work-3.png" alt="Image of campus map">
+                    <div class="layer">
+                        <h3 class="L-txt">Campus Map</h3>
+                        <p class="L-txt"> Created a university campus map using the Google Maps API so that students can
+                            navigate
+                            thier way round the university. </p>
+
+                        <p class="L-txt"><strong>Note: This only currently works on desktop mobile version will be
+                                developed in the
+                                future.</strong></p>
+
+                        <a aria-label="Link to Campus Map webpage" href="https://thewebmaster95.github.io/"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+
+    <!--Testomonials-->
+
+    <div id="review">
+        <div class="container">
+
+            <div class="review">
+                <div class="box">
+                    <i class="fas fa-quote-left quote"></i>
+                    <p>Liam is a highly skilled and committed individual. I previously worked with Liam at UCLan
+                        Students’ Union and his passion and commitment to front end development and the organisation is
+                        something that it’s clear Liam prides himself on. Liam not only possesses robust technical
+                        expertise but also excels in articulating complex scenarios to stakeholders. His ability to
+                        navigate multiple tasks, collaborate effectively, and drive positive outcomes is truly
+                        inspiring. </p>
+                    <div class="content">
+                        <div class="info">
+                            <div class="name">Lewis Darlow</div>
+                            <div class="job">Product Designer</div>
+
+
+
+                        </div>
+
+
+
+
+
+                    </div>
+                    </i>
+                </div>
+
+
+                <div class="box">
+
+                    <i class="fas fa-quote-left quote"> </i>
+                    <p>Liam is a proactive problem-solver who’s hard-work and determination has seen him deliver
+                        consistent high-value web projects.
+                        I’ve worked with Liam for over 4 years and have witnessed his drive for professional and
+                        personal development,
+                        always wanting to learn and stay up to date with the latest web and tech advancements.
+                        Liam is passionate about his work and always goes above and beyond what’s needed, ensuring
+                        projects are to the best standards. </p>
+                    <div class="content">
+                        <div class="info">
+                            <div class="name">Hannah Mason</div>
+                            <div class="job">Director Membership Voice</div>
+
+
+
+                        </div>
+
+
+
+
+
+                    </div>
+                    </i>
+                </div>
+
+
+
+
+                <div class="box">
+                    <i class="fas fa-quote-left quote"></i>
+                    <p>Liam is a brilliantly intuitive in all areas of his work and a genuine, honest person. I was on
+                        the panel when Liam interviewed for his position at UCLan SU and we were all immediately
+                        impressed by his out of the box thinking and impressive experience.</p>
+
+                    <br>
+
+                    <p> While mentoring Liam, it has become even more apparent his passion and drive to continually
+                        refine his skills, and his work speaks for itself!</p>
+                    <div class="content">
+                        <div class="info">
+                            <div class="name">Harry Vann</div>
+                            <div class="job">Freelance Digital Consultant</div>
+
+
+
+                        </div>
+
+
+
+
+
+                    </div>
+                    </i>
+                </div>
+
+
+
+
+            </div>
+
+
+
+
+
+
+
+        </div>
+
+
+        <!-- Contact -->
+
+
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p class="contact-txt"> <i class="fa-solid fa-paper-plane"></i>liam@lmiddleton.co.uk</p>
+
+                        <div class="social-icons">
+                            <a aria-label="Link to Facebook" href="https://www.facebook.com/LiamM95"><i
+                                    class="fa-brands fa-facebook"></i></a>
+                            <a aria-label="Link to Instagram" href="https://www.instagram.com/"><i
+                                    class="fa-brands fa-instagram"></i></a>
+                            <a aria-label="Link to Linkedin" href="https://www.linkedin.com/in/liam-m-228457138/"><i
+                                    class="fa-brands fa-linkedin"></i></a>
+                            <a aria-label="Link to Githib" href="https://github.com/TheWebmaster95"><i
+                                    class="fa-brands fa-github"></i></a>
+                            <a aria-label="Link to Slack" href="https://lmiddletonworkspace.slack.com"><i
+                                    class="fa-brands fa-slack"></i></a>
+
+                        </div>
+                        <a aria-label="Link to CV" href="https://1drv.ms/b/s!Arm_lFMZYQjojb4ZF9xLBNrL86PMCA?e=AxDxrP"
+                            download class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+
+
+                        </form>
+
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="copyright">
+                Liam Middleton 2024 </p>
+                <img class="Logo" src="images/LM-Logo.png" alt="Lmiddleton Logo">
+
+            </div>
+        </div>
+
+
+
+        <script>
+
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+
+            function opentab(tabname) {
+                for (tablink of tablinks) {
+                    tablink.classList.remove("active-link");
+                }
+                for (tabcontent of tabcontents) {
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add
+                    ("active-tab");
+            }
+
+        </script>
+
+        <script>
+            var sidemenu = document.getElementById("sidemenu");
+
+            function openmenu() {
+                sidemenu.style.right = "0";
+            }
+
+            function closemenu() {
+                sidemenu.style.right = "-200px";
+            }
+        </script>
+
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbxtFgMukzCa7DC6NStccQOBHKMoB5x_RLQ9ghYnPagyqwpDIFreRZWXOYxo1ZVUpoVBrw/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg = document.getElementById("msg")
+
+            form.addEventListener('submit', e => {
+                e.preventDefault()
+                fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                    .then(response => {
+                        msg.innerHTML = "Messege Sent successfully"
+                        setTimeout(function () {
+                            msg.innerHTML = ""
+                        }, 3000)
+                        form.reset()
+                    })
+                    .catch(error => console.error('Error!', error.message))
+            })
+        </script>
+
+
+</body>
+
+</html>
